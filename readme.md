@@ -1,4 +1,4 @@
-#Springboot Schedule Project
+# Springboot Schedule Project
 
 ## Requirements
 
@@ -16,7 +16,7 @@ Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/
 ```shell
 mvn spring-boot:run
 ```
-##Project Description
+## Project Description
 
 This has only post request. Once server starts go to [swagger-ui](http://localhost:8080/swagger-ui.html).
 You will notice a controller called "Message Controller". click on post request [message](http://localhost:8080/swagger-ui.html#!/Message_Controller/createUsingPOST) and filled the requird data and click on Try it out button.
@@ -28,7 +28,7 @@ Once you click your job will get scheduled and as a response you will get data.
   "value": "string"
 }
 
-##Sample Response
+## Sample Response
 * <b>Response Code - </b> 202 
 * <b>Response Body - </b><br>
 {
